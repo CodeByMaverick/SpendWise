@@ -32,7 +32,7 @@ if(showSign){
     }
 }
 else{
-    return "$" + formattedAmount;
+    return (amount < 0 ? "-$" : "$") + formattedAmount;
 }
    
 }
